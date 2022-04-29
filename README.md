@@ -6,9 +6,11 @@
 4. Improve Performance of Text Classifier: In this article, we will also look at the different ways to improve the performance of text classifiers.
 
 Web app using Flask
-•	Main : App.py 
-•	This file contains main code needed to run an application.
-•	dev: All the dependency files are listed.
-•	templates: This folder contain html pages, User Interface code which is appeared on front-end pages.
-•	static: This folder contains css required for front end page.
-•	NB_bbc_news.pkl : This is downloaded from the saved model.
+
+1.	Main : App.py 
+2.	This file contains main code needed to run an application.
+3.	dev: All the dependency files are listed.
+4.	templates: This folder contain html pages, User Interface code which is appeared on front-end pages.
+5.	static: This folder contains css required for front end page.
+6.	NB_bbc_news.pkl : This is downloaded from the saved model.
+
