@@ -6,7 +6,6 @@
 4. Improve Performance of Text Classifier: In this article, we will also look at the different ways to improve the performance of text classifiers.
 
 Web app using Flask
-
 •	Main : App.py 
 •	This file contains main code needed to run an application.
 •	dev: All the dependency files are listed.
