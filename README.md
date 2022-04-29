@@ -7,9 +7,9 @@
 
 Web app using Flask
 
-Main : App.py 
-This file contains main code needed to run an application.
-dev: All the dependency files are listed.
-templates: This folder contain html pages, User Interface code which is appeared on front-end pages.
-static: This folder contains css required for front end page.
-NB_bbc_news.pkl : This is downloaded from the saved model.
+•	Main : App.py 
+•	This file contains main code needed to run an application.
+•	dev: All the dependency files are listed.
+•	templates: This folder contain html pages, User Interface code which is appeared on front-end pages.
+•	static: This folder contains css required for front end page.
+•	NB_bbc_news.pkl : This is downloaded from the saved model.
