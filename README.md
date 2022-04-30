@@ -2,20 +2,33 @@
 
 1. Dataset Preparation: The first step is the Dataset Preparation step which includes the process of loading a dataset and performing basic pre-processing. 
   •	Mount the google drive to use the file from drive.
+  
   •	Load the BBC News dataset which can be downloaded from Kaggle.
+  
   •	Download dataset: https://www.kaggle.com/datasets/yufengdev/bbc-fulltext-and-category
+  
   •	Read the data, we can see categories v/s Text(article headline text)
+  
   •	Remove unnecessary columns
+  
   •	Count unique categories & text for each
+  
   •	Visualize the count of articles for each category
+  
   •	Remove duplicate rows.
+  
   •	Find word cloud, most frequent words from ‘text’ column
+  
   •	Pre-processing & Tokenization is performed in this step mainly
+  
 
 2. Feature Engineering: The next step is the Feature Engineering in which the raw dataset is transformed into flat features which can be used in a machine learning model. This step also includes the process of creating new features from the existing data. The dataset is then spitted into train and validation sets.
   •	Main step is converting text into suitable features.
+  
   •	Count Vectors as features 
+  
   •	TF-IDF Vectors as features
+  
   •	Split the dataset into Train & Test datasets
 
 3. Model Training: The final step is the Model Building step in which a machine learning model is trained on a labelled dataset.
