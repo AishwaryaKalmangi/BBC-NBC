@@ -76,5 +76,6 @@ This file contains main code needed to run an application.
       •	we used the POST method to transport the form data to the server in the message body. Finally, by setting the debug=True argument inside the app.run method, we further activated Flask's debugger.
 
       •	Lastly, we used the run function to only run the application on the server when this script is directly executed by the Python interpreter, which we ensured using the if statement with __name__ == '__main__'.
+![web1](https://user-images.githubusercontent.com/98350313/166095252-be945e37-e1a4-4e7f-985c-298385ff6738.png)
 
 
