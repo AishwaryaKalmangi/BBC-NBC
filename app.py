@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def WebNew():
-   return render_template("home.jinja2")
+   return render_template("home.html")
 
 @app.route('/predict',methods=['POST'])
 def predict():
