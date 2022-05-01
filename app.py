@@ -21,25 +21,25 @@ def predict():
 	y = df['label']
 	my_prediction = "Accuracy"
 	# # # Extract Feature With CountVectorizer
-	# cv = CountVectorizer()
-	# X = cv.fit_transform(X) # Fit the Data
-	# from sklearn.model_selection import train_test_split
-	# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.18, random_state=42)
+	cv = CountVectorizer()
+	X = cv.fit_transform(X) # Fit the Data
+	from sklearn.model_selection import train_test_split
+	X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.18, random_state=42)
 	# # #Naive Bayes Classifier
-	# from sklearn.naive_bayes import MultinomialNB
+	from sklearn.naive_bayes import MultinomialNB
 
-	# clf = MultinomialNB()
-	# clf.fit(X_train,y_train)
-	# clf.score(X_test,y_test)
+	clf = MultinomialNB()
+	clf.fit(X_train,y_train)
+	clf.score(X_test,y_test)
 	
 
-	# if request.method == 'POST':
-	# 	      message = request.form['message']
-	# 	      data = [message]
-	# 	      vect = cv.transform(data).toarray()
-	# 	      my_prediction = clf.predict(vect)
+	if request.method == 'POST':
+		      message = request.form['message']
+		      data = [message]
+		      vect = cv.transform(data).toarray()
+		      my_prediction = clf.predict(vect)
                         
-	return render_template('result.jinja2')
+	return render_template('result.html',prediction = my_prediction)
 
 
 
